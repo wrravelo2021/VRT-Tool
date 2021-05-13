@@ -1,0 +1,10 @@
+var app = require('../server/server');
+var mongoose = require("mongoose");
+var config = require("../config/database.js");
+
+var port = process.env.PORT || 8000;
+mongoose.connect(config.database);
+
+app.listen(port, function () {
+  console.log('running at localhost:' + port);
+});

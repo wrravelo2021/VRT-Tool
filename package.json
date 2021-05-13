@@ -1,0 +1,47 @@
+{
+  "name": "whygoalone",
+  "version": "1.0.0",
+  "description": "React boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode production --watch",
+    "start": "node bin/www",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "William Ravelo M",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-solid": "^5.0.8",
+    "@fortawesome/react-fontawesome": "0.0.17",
+    "bootstrap": "^4.0.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "mz": "^2.7.0",
+    "puppeteer": "^1.8.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "reactstrap": "^5.0.0-beta.2",
+    "resemblejs-node": "^1.0.0",
+    "serve-favicon": "^2.4.5",
+    "url-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-plugin-react": "^7.7.0",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
